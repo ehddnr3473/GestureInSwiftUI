@@ -1,5 +1,5 @@
 //
-//  LoadingBarwithLongPressGesture.swift
+//  LoadingBarWithLongPressGesture.swift
 //  GestureInSwiftUI
 //
 //  Created by 김동욱 on 2023/04/08.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoadingBarwithLongPressGesture: View {
+struct LoadingBarWithLongPressGesture: View {
     @State var isLoading = false
     @State var isSucceeded = false
     
@@ -65,6 +65,6 @@ struct LoadingBarwithLongPressGesture: View {
 
 struct LoadingBarwithLongPressGesture_Previews: PreviewProvider {
     static var previews: some View {
-        LoadingBarwithLongPressGesture()
+        LoadingBarWithLongPressGesture()
     }
 }
