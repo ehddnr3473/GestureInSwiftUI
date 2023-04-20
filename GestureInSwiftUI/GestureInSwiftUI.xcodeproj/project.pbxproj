@@ -15,6 +15,7 @@
 		6BCC427D29E121EB00FF00FB /* LoadingBarWithLongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC427C29E121EB00FF00FB /* LoadingBarWithLongPressGesture.swift */; };
 		6BE52EB129F10B5700CAE6B5 /* SimpleMagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE52EB029F10B5700CAE6B5 /* SimpleMagnificationGesture.swift */; };
 		6BE52EB329F10F9800CAE6B5 /* SimpleViewWithMagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE52EB229F10F9800CAE6B5 /* SimpleViewWithMagnificationGesture.swift */; };
+		6BE52EB529F1130100CAE6B5 /* SimpleRotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE52EB429F1130100CAE6B5 /* SimpleRotationGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		6BCC427C29E121EB00FF00FB /* LoadingBarWithLongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBarWithLongPressGesture.swift; sourceTree = "<group>"; };
 		6BE52EB029F10B5700CAE6B5 /* SimpleMagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMagnificationGesture.swift; sourceTree = "<group>"; };
 		6BE52EB229F10F9800CAE6B5 /* SimpleViewWithMagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewWithMagnificationGesture.swift; sourceTree = "<group>"; };
+		6BE52EB429F1130100CAE6B5 /* SimpleRotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRotationGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,11 @@
 		6B2CF7DF29E021310005335A /* GestureInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				6B2CF7E029E021310005335A /* GestureInSwiftUIApp.swift */,
-				6B2CF7EE29E021930005335A /* TapGesture.swift */,
-				6B2CF7F029E023430005335A /* LongPressGesture.swift */,
-				6BE52EB029F10B5700CAE6B5 /* SimpleMagnificationGesture.swift */,
-				6BCC427C29E121EB00FF00FB /* LoadingBarWithLongPressGesture.swift */,
-				6BE52EB229F10F9800CAE6B5 /* SimpleViewWithMagnificationGesture.swift */,
+				6BE52EB829F1134B00CAE6B5 /* Application */,
+				6BE52EB629F1132200CAE6B5 /* TapGesture */,
+				6BE52EB729F1132E00CAE6B5 /* LongPressGesture */,
+				6BE52EB929F1135D00CAE6B5 /* MagnificationGesture */,
+				6BE52EBA29F113F500CAE6B5 /* RotationGesture */,
 				6B2CF7E429E021320005335A /* Assets.xcassets */,
 				6B2CF7E629E021320005335A /* Preview Content */,
 			);
@@ -77,6 +78,48 @@
 				6B2CF7E729E021320005335A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BE52EB629F1132200CAE6B5 /* TapGesture */ = {
+			isa = PBXGroup;
+			children = (
+				6B2CF7EE29E021930005335A /* TapGesture.swift */,
+			);
+			path = TapGesture;
+			sourceTree = "<group>";
+		};
+		6BE52EB729F1132E00CAE6B5 /* LongPressGesture */ = {
+			isa = PBXGroup;
+			children = (
+				6BCC427C29E121EB00FF00FB /* LoadingBarWithLongPressGesture.swift */,
+				6B2CF7F029E023430005335A /* LongPressGesture.swift */,
+			);
+			path = LongPressGesture;
+			sourceTree = "<group>";
+		};
+		6BE52EB829F1134B00CAE6B5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6B2CF7E029E021310005335A /* GestureInSwiftUIApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6BE52EB929F1135D00CAE6B5 /* MagnificationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				6BE52EB029F10B5700CAE6B5 /* SimpleMagnificationGesture.swift */,
+				6BE52EB229F10F9800CAE6B5 /* SimpleViewWithMagnificationGesture.swift */,
+			);
+			path = MagnificationGesture;
+			sourceTree = "<group>";
+		};
+		6BE52EBA29F113F500CAE6B5 /* RotationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				6BE52EB429F1130100CAE6B5 /* SimpleRotationGesture.swift */,
+			);
+			path = RotationGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +198,7 @@
 				6BCC427D29E121EB00FF00FB /* LoadingBarWithLongPressGesture.swift in Sources */,
 				6BE52EB329F10F9800CAE6B5 /* SimpleViewWithMagnificationGesture.swift in Sources */,
 				6B2CF7E129E021310005335A /* GestureInSwiftUIApp.swift in Sources */,
+				6BE52EB529F1130100CAE6B5 /* SimpleRotationGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
