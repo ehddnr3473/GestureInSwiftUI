@@ -17,6 +17,7 @@
 		6BE52EB329F10F9800CAE6B5 /* SimpleViewWithMagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE52EB229F10F9800CAE6B5 /* SimpleViewWithMagnificationGesture.swift */; };
 		6BE52EB529F1130100CAE6B5 /* SimpleRotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE52EB429F1130100CAE6B5 /* SimpleRotationGesture.swift */; };
 		6BE52EBD29F197BC00CAE6B5 /* SimpleDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE52EBC29F197BC00CAE6B5 /* SimpleDragGesture.swift */; };
+		6BE52EBF29F27E3400CAE6B5 /* CardWithDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE52EBE29F27E3400CAE6B5 /* CardWithDragGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		6BE52EB229F10F9800CAE6B5 /* SimpleViewWithMagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewWithMagnificationGesture.swift; sourceTree = "<group>"; };
 		6BE52EB429F1130100CAE6B5 /* SimpleRotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRotationGesture.swift; sourceTree = "<group>"; };
 		6BE52EBC29F197BC00CAE6B5 /* SimpleDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDragGesture.swift; sourceTree = "<group>"; };
+		6BE52EBE29F27E3400CAE6B5 /* CardWithDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWithDragGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				6BE52EBC29F197BC00CAE6B5 /* SimpleDragGesture.swift */,
+				6BE52EBE29F27E3400CAE6B5 /* CardWithDragGesture.swift */,
 			);
 			path = DragGesture;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				6BE52EB129F10B5700CAE6B5 /* SimpleMagnificationGesture.swift in Sources */,
 				6BE52EBD29F197BC00CAE6B5 /* SimpleDragGesture.swift in Sources */,
 				6B2CF7F129E023430005335A /* LongPressGesture.swift in Sources */,
+				6BE52EBF29F27E3400CAE6B5 /* CardWithDragGesture.swift in Sources */,
 				6B2CF7EF29E021930005335A /* TapGesture.swift in Sources */,
 				6BCC427D29E121EB00FF00FB /* LoadingBarWithLongPressGesture.swift in Sources */,
 				6BE52EB329F10F9800CAE6B5 /* SimpleViewWithMagnificationGesture.swift in Sources */,
